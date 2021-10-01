@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F3FB;
+}
+
+.container {
+    width: 70%;
+    min-height: 80vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(100, 100, 100, 0.1);
+}
+
+.info {
+    display: inline-block;
+    width: 40%;
+    min-height: 70vh;
+    background-image: linear-gradient(to right bottom, #BFA1EA, #735FCD);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 3%;
+}
+
+.sign-up {
+    width: 50%;
+    min-height: 70vh;
+    background-color: white;
+    float: right;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.fa-check-circle {
+    color: rgb(240, 240, 240);
+    margin: 17px;
+    font-size: 15px;
+}
+
+.title {
+    font-size: 17px;
+    color: rgb(240, 240, 240);
+    margin: 10px;
+}
+
+.text {
+    font-size: 15px;
+    color: rgb(240, 240, 240);
+    margin: 10px;
+}
+
+.title-sign {
+    margin: 10px 20px 20px 20px;
+}
+
+.input {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.input-title {
+    font-size: 18px;
+}
+
+input {
+    margin-top: 10px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(241, 235, 235);
+    font-family: inherit;
+    padding: 8px;
+}
+
+.message {
+    font-size: 15px;
+    color: #735FCD;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+button {
+    margin-left: 20px;
+    width: 60%;
+    height: 30px;
+    background-color: #735FCD;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: inherit;
+}
+
+button:hover {
+    background-color: #735fcda9;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    background-color: white;
+    transition: all 0.3s ease;
+}
